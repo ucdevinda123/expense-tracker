@@ -16,13 +16,13 @@ export const ExpenseReducer = (state = initialState, { type, payload }) => {
       };
 
     case REMOVE_TRANSACTION:
-      return {
+     let lists = state.data.filter((transitem) => {
         /*Filtering out result*/
+        return transitem.id != payload;
+      });
+      return {
         ...state,
-        data: state.data.filter((transaction) => {
-          transaction.id != payload;
-          console.log(payload);
-        }),
+        data: lists,
       };
 
     default:
