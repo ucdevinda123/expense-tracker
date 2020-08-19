@@ -17,7 +17,7 @@ export const ExpenseReducer = (state = initialState, { type, payload }) => {
 
     case REMOVE_TRANSACTION:
      let lists = state.data.filter((transitem) => {
-        /*Filtering out result*/
+        /*Filtering out result */
         return transitem.id != payload;
       });
       return {
