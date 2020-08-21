@@ -2,11 +2,6 @@
 React Native Expense Tracker App
 
 
-
-# expense-tracker
-React Native Expense Tracker App
-
-
 # Libraries Used 
  react-navigation/native
  
