@@ -23,7 +23,7 @@ export default TransactionListItem = ({
       underlayColor: "rgba(0, 0, 0, 1, 0.6)",
       onPress: () => {
         //console.log("Delete Item");
-        dispatch(removeTransaction(id));
+          dispatch(removeTransaction({ id }));
       },
       component: (
         <View
