@@ -26,8 +26,9 @@ React Native Expense Tracker App
 
 # How To set up
 Make sure to install expo-cli in your pc 
-
-`npm install -g expo-cli`
+ `yarn add expo`     - Recomended to use yarn as sometimes installation via npm might be broken 
+ or
+`npm install -g expo-cli` 
 
 if all good on the root folder of the project run
 
