@@ -1,4 +1,4 @@
-# expense-tracker
+# expense-tracker [![CodeFactor](https://www.codefactor.io/repository/github/ucdevinda123/expense-tracker/badge)](https://www.codefactor.io/repository/github/ucdevinda123/expense-tracker)
 React Native Expense Tracker App
 
 
